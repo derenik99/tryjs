@@ -1,4 +1,4 @@
-/*/// JavaScript
+// JavaScript
 
 console.log("print");
 
@@ -41,7 +41,6 @@ const factIter = n => {
 // console.log( fact(2), fact(3), fact(4), fact(5)  )
 // console.log( factIter(2), factIter(3), factIter(4), factIter(5)  )
 
-//////
 // [a, b]  Գումար [a,b] միջակայքի թվերի գումարը
 
 const intervalsumIter = (a, b) => {
@@ -151,7 +150,7 @@ console.log(pat())*/
 
 
 
-/*function IWantToWork(){
+function IWantToWork(){
     this.count = 0;
     setInterval(function increase(){
         alert(this.count++);
@@ -161,7 +160,7 @@ var iWillWork = new iWillWork*/
 
 //const A=[7,8,9,10]
 //console.log(A)
-/*const sumArray = (massiv) => {
+const sumArray = (massiv) => {
     let result=0
     for(let i=0; i<massiv.length; i++){
         result += massiv[i]
@@ -169,8 +168,8 @@ var iWillWork = new iWillWork*/
         
     return result
 
-}*/
-/*const sumArray = (massiv) =>{
+}
+const sumArray = (massiv) =>{
     if(massiv.length === 0){
         return 0
     }
@@ -180,9 +179,9 @@ var iWillWork = new iWillWork*/
 
 console.log(A.unshift(5))
 A.push(11)
-console.log(A)*/
+console.log(A)
 
-/*const f = () => {
+const f = () => {
     return () => {
         console.log('inch vor ban')
     }
@@ -190,8 +189,8 @@ console.log(A)*/
 
 const pat = f()
 //console.log(pat.toString())
-pat()*/
-/*function parz(n){
+pat()
+function parz(n){
     boolean b=true;
     if(n==1){
         console.log("parz che");
@@ -201,15 +200,15 @@ pat()*/
             b=false;
         }
     }
-}*/
+}
 
-/*var x=[5,45,5,3,26,8,90,75,34];
+var x=[5,45,5,3,26,8,90,75,34];
 var y=x.every(function(a){
     return a%2==0;
 });
-console.log(y);*/
+console.log(y);
 
-/*let btn=document.querySelector("#btn");
+let btn=document.querySelector("#btn");
 btn.addEventListener("click", function(){
     let elm=document.createElement("h1");
     elm.innerHTML="dinamic element";
@@ -228,31 +227,31 @@ const stackCreator = () => {
             return storage.pop()
         }
     }
-}*/
-// const f = () => {
-//     let innerValue = 0
-//     return (tiv) => {
-//         if(typeof tiv !== 'undefined'){
-//             innerValue += tiv
-//             return null
-//         }
+}
+ const f = () => {
+     let innerValue = 0
+     return (tiv) => {
+         if(typeof tiv !== 'undefined'){
+             innerValue += tiv
+             return null
+         }
         
-//         return innerValue
-//     }
-// }
+         return innerValue
+     }
+ }
 
-// const pat = f();
-//const value = pat();
-/*console.log( pat(4) );
+ const pat = f();
+const value = pat();
+console.log( pat(4) );
 console.log( pat(5) );
 console.log( pat(1) );
 console.log( pat(10) );
 console.log( pat(30) );
 console.log( pat() );*/
 //console.log(pat);
-//  pat();
+  pat();
 
-/*const stackCreator = () =>{
+const stackCreator = () =>{
     const storage = []
     return(item) => {
         if(typeof item !== 'undefined'){
@@ -280,7 +279,7 @@ const booleanToggler = () => {
         innerValue = !innerValue
         return bool 
     }
-}*/
+}
 // function MyClass(){
 //     var item = 5;
 //     this.getItem = function(){
